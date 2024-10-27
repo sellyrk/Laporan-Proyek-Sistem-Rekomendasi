@@ -45,18 +45,18 @@ Variabel-variabel pada Sociolla: All Brands Products Catalog  dataset adalah seb
 - price_range : kisaran umum harga produk
 - price_by_combinations : kisaran khusus harga produk berdasarkan variasi produk yang berbeda
 - url : URL link yang mengarahkan pada laman Sociolla.com
-- active_date : Informasi tentang tanggal setiap produk menjadi aktif atau tersedia di Sociolla.com
-- default_category : Kategori umum produk
-- categories : Kategori khusus produk, untuk klasifikasi produk terperinci
-- rating_types_str : Uasan konsumen tiap produk
-- average_rating : Rata-rata rating penilaian produk
-- total_reviews : Total konsumen yang memberikan ulasan
-- average_rating_by_types : Rata-rata rating penilaian produk dalam aspek tertentu
-- total_recommended_count : Total konsumen yang merekomendasikan produk
-- total_repurchase_maybe_count : Total konsumen yang mungkin membeli produk ulang
-- total_repurchase_no_count : Total konsumen yang tidak membeli produk ulang
-- total_repurchase_yes_count : Total konsumen yang membeli produk ulang
-- total_in_wishlist : Total konsumen yang memasukkan produk ke dalam wishlist
+- active_date : informasi tentang tanggal setiap produk menjadi aktif atau tersedia di Sociolla.com
+- default_category : kategori umum produk
+- categories : kategori khusus produk, untuk klasifikasi produk terperinci
+- rating_types_str : ulasan konsumen tiap produk
+- average_rating : rata-rata rating penilaian produk
+- total_reviews : total konsumen yang memberikan ulasan
+- average_rating_by_types : rata-rata rating penilaian produk dalam aspek tertentu
+- total_recommended_count : total konsumen yang merekomendasikan produk
+- total_repurchase_maybe_count : total konsumen yang mungkin membeli produk ulang
+- total_repurchase_no_count : total konsumen yang tidak membeli produk ulang
+- total_repurchase_yes_count : total konsumen yang membeli produk ulang
+- total_in_wishlist : total konsumen yang memasukkan produk ke dalam wishlist
 
 Variabel default_category, average_rating, dan total_recommended_count akan digunakan pada model rekomendasi. Sedangkan, variabel brand_name, product_name, dan price_range untuk melihat output yang dihasilkan.
 
