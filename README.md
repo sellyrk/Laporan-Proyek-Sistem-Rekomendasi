@@ -62,9 +62,12 @@ Variabel default_category, average_rating, dan total_recommended_count akan digu
 
 Selain itu, untuk memahami persebaran data, dilakukan pemahaman data dengan fungsi info()
 ![image](https://github.com/user-attachments/assets/48ca50b8-cc49-41fe-afb5-9350efa8d726)
+
 Dapat dilihat, jika jumlah data di tiap kolom berbeda-beda. Nantinya, ini akan diproses pada tahap selanjutnya. Untuk melihat insight dari seberapa banyak brand dan hal unik lain yang ada pada kolom, digunakan fungsi unique().
-![image](https://github.com/user-attachments/assets/985e470f-1416-4a4a-a0a5-87a9281539fe)
-Jadi, dalam dataset, terdiri dari  7636 nama produk yang berbeda, 319 nama brand yang berbeda, 3187 nilai rating yang berbeda, dan 195 kategori produk yang berbeda.
+![image](https://github.com/user-attachments/assets/e2ddf278-e077-4bc9-8c3f-16dee7ab290f)
+
+
+Jadi, dalam dataset, terdiri dari 7636 nama produk yang berbeda, 319 nama brand yang berbeda, 3187 nilai rating yang berbeda, dan 195 kategori produk yang berbeda.
 
 ## Data Preparation
 ### Teknik Data Preparation yang Digunakan
@@ -104,17 +107,20 @@ Dengan memanfaatkan ketiga pendekatan ini, sistem rekomendasi di produk-produk S
 
 ## Evaluation
 #### 1. Hasil Rekomendasi berdasarkan Kategori Produk
-![image](https://github.com/user-attachments/assets/9664d443-7227-4a4b-bd08-d2ac5e4e3bac)
-![image](https://github.com/user-attachments/assets/54a1f82b-7ef6-4c76-a5e9-572c4b304762)
+![image](https://github.com/user-attachments/assets/846265ff-0948-4f03-b30f-72cf208feb90)
+![image](https://github.com/user-attachments/assets/69c0c176-47d9-4265-861d-d7aae198d715)
+
 Dari hasil rekomendasi di atas, diketahui bahwa rekomendasi harus menampilkan kategori yang sama yang dimiliki oleh Repair Hair Mask. Dari 10 item yang direkomendasikan, 10 item memiliki kategori yang sama. Jadi, precision sistem sebesar 10/10 atau 100%.
 #### 2. Hasil Rekomendasi berdasarkan Rating 
 ![image](https://github.com/user-attachments/assets/3d6caa20-88f7-4ec0-8712-eeee19d8e8ba)
+
 Dari hasil rekomendasi di atas, diketahui bahwa rekomendasi harus menampilkan kategori yang sama yang dimiliki oleh Repair Hair Mask, tetapi dalam urutan rating dari yang terbaik. Dari 10 item yang direkomendasikan, 10 item menampilkan rating teratas dari kategori Hair Mask.
 #### 3. Hasil Rekomendasi berdasarkan Total Rekomendasi
 ![image](https://github.com/user-attachments/assets/d57b74f6-fd99-4a3a-ae15-a91653c7ced5)
+
 Dari hasil rekomendasi di atas, diketahui bahwa rekomendasi harus menampilkan kategori yang sama yang dimiliki oleh Repair Hair Mask, tetapi dalam urutan total rekomendasi tertinggi. Dari 10 item yang direkomendasikan, 10 item menampilkan total rekomendasi dari kategori Hair Mask
 
 Metrik evaluasi yang digunakan pada evaluasi di atas yaitu Metrik Evaluasi Precision@k, yang mengukur proporsi rekomendasi yang relevan di antara semua rekomendasi yang diberikan. Dalam konteks ini, Precision@k mengukur seberapa banyak dari k rekomendasi teratas yang relevan untuk pengguna. Dengan formula:
 Precision@k = Jumlah produk relevan di top-k/𝑘. Dengan cara kerja, yaitu menghitung jumlah produk yang relevan dari k rekomendasi teratas, dibagi dengan jumlah seluruh rekomendasi yang diberikan
 
-**---Ini adalah bagian akhir laporan---**
+**---Sekian, Terima Kasih---**
