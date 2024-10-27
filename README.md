@@ -63,7 +63,9 @@ Variabel default_category, average_rating, dan total_recommended_count akan digu
 Selain itu, untuk memahami persebaran data, dilakukan pemahaman data dengan fungsi info()
 ![image](https://github.com/user-attachments/assets/48ca50b8-cc49-41fe-afb5-9350efa8d726)
 
-Dapat dilihat, jika jumlah data di tiap kolom berbeda-beda. Nantinya, ini akan diproses pada tahap selanjutnya. Untuk melihat insight dari seberapa banyak brand dan hal unik lain yang ada pada kolom, digunakan fungsi unique().
+Dapat dilihat, jika jumlah data di tiap kolom berbeda-beda. Nantinya, ini akan diproses pada tahap selanjutnya. 
+
+Untuk melihat insight dari seberapa banyak brand dan hal unik lain yang ada pada kolom, digunakan fungsi unique().
 ![image](https://github.com/user-attachments/assets/e2ddf278-e077-4bc9-8c3f-16dee7ab290f)
 
 
@@ -94,6 +96,7 @@ Kelebihan:
 - Personalisasi, Content-based filtering dapat memberikan rekomendasi yang lebih personal kepada konsumen dengan mempertimbangkan preferensi dan minat mereka terhadap kategori atau fitur produk tertentu.
 - Tidak terikat oleh konsumen lain, sistem ini tidak bergantung pada interaksi konsumen atau pengguna lain, sehingga dapat berfungsi dengan baik, ketika data memiliki interaksi pengguna yang terbatas (cold-start problem).
 - Kualitas rekomendasi, dengan memanfaatkan konten dan deskripsi produk, sistem dapat merekomendasikan produk yang relevan berdasarkan kesamaan fitur-fitur yang ada, meningkatkan relevansi dan kualitas rekomendasi.
+
 Kekurangan:
 - Terbatas pada konten saja, rekomendasi hanya didasarkan pada konten produk, sehingga kurang bervariasi. Konsumen mungkin tidak mendapatkan produk yang berada di luar kategori yang dipilih, meskipun produk tersebut mungkin sesuai dengan preferensi mereka.
 - Keterbatasan dalam penemuan, model ini dapat mengarahkan kepada konsumen dengan hanya melihat produk yang mirip dengan yang telah mereka pilih sebelumnya, sehingga mengurangi kemungkinan menemukan produk baru yang berbeda.
