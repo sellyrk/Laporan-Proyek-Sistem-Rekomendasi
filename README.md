@@ -159,12 +159,6 @@ Algoritma ini tetap menggunakan Conten Based Filtering tetapi parameternya mengg
 | 0     | Honey Dew Repair Mask Dusset                                                          | makarizo-professional | Rp 409\.600  | 5                         |
 | 9     | Hair Energy Fibertherapy Hair & Scalp Creambath Ginseng Extract                       | makarizo              | Rp 124\.100  | 3                         |
 
-#### Output: Top-N Recommendations
-Berdasarkan model di atas, output sistem rekomendasi akan menyajikan top-N produk sebagai berikut:
-- Top-N rekomendasi berdasarkan kategori produk: Daftar produk dalam kategori yang sama dengan produk yang disukai oleh konsumen.
-- Top-N rekomendasi berdasarkan rating: Daftar produk dengan rating tertinggi dalam kategori yang relevan, memberikan prioritas pada kualitas.
-- Top-N rekomendasi berdasarkan total rekomendasi: Daftar produk yang paling sering direkomendasikan oleh pengguna lain, menonjolkan popularitas.
-
 #### Kelebihan dan Kekurangan dari Content-Based Filtering
 Kelebihan:
 - Personalisasi, Content-based filtering dapat memberikan rekomendasi yang lebih personal kepada konsumen dengan mempertimbangkan preferensi dan minat mereka terhadap kategori atau fitur produk tertentu.
