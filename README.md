@@ -106,6 +106,7 @@ Berdasarkan model di atas, output sistem rekomendasi akan menyajikan top-N produ
 - Top-N rekomendasi berdasarkan kategori produk: Daftar produk dalam kategori yang sama dengan produk yang disukai oleh konsumen.
 - Top-N rekomendasi berdasarkan rating: Daftar produk dengan rating tertinggi dalam kategori yang relevan, memberikan prioritas pada kualitas.
 - Top-N rekomendasi berdasarkan total rekomendasi: Daftar produk yang paling sering direkomendasikan oleh pengguna lain, menonjolkan popularitas.
+
 Dengan memanfaatkan ketiga pendekatan ini, sistem rekomendasi di produk-produk Sociolla dapat memberikan saran yang lebih baik dan relevan kepada pengguna, dan meningkatkan pengalaman berbelanja secara keseluruhan.
 
 ## Evaluation
@@ -124,6 +125,8 @@ Dari hasil rekomendasi di atas, diketahui bahwa rekomendasi harus menampilkan ka
 Dari hasil rekomendasi di atas, diketahui bahwa rekomendasi harus menampilkan kategori yang sama yang dimiliki oleh Repair Hair Mask, tetapi dalam urutan total rekomendasi tertinggi. Dari 10 item yang direkomendasikan, 10 item menampilkan total rekomendasi dari kategori Hair Mask
 
 Metrik evaluasi yang digunakan pada evaluasi di atas yaitu Metrik Evaluasi Precision@k, yang mengukur proporsi rekomendasi yang relevan di antara semua rekomendasi yang diberikan. Dalam konteks ini, Precision@k mengukur seberapa banyak dari k rekomendasi teratas yang relevan untuk pengguna. Dengan formula:
-Precision@k = Jumlah produk relevan di top-k/𝑘. Dengan cara kerja, yaitu menghitung jumlah produk yang relevan dari k rekomendasi teratas, dibagi dengan jumlah seluruh rekomendasi yang diberikan
+Precision@k = Jumlah produk relevan di top-k/𝑘. Dengan cara kerja, yaitu menghitung jumlah produk yang relevan dari k rekomendasi teratas, dibagi dengan jumlah seluruh rekomendasi yang diberikan.
+
+Proyek sistem rekomendasi produk di Sociolla menggunakan pendekatan Content-Based Filtering dengan perhitungan TF-IDF dan cosine similarity telah menunjukkan hasil yang menjanjikan dalam memberikan rekomendasi yang relevan kepada pengguna. Metrik evaluasi yang digunakan—Precision@k memberikan gambaran tentang kinerja sistem yang sudah cukup baik. Dengan adanya sistem rekomendasi ini, pengguna dapat dengan cepat menemukan produk yang mereka cari, mengurangi waktu pencarian dan meningkatkan pengalaman belanja secara keseluruhan.
 
 **---Sekian, Terima Kasih---**
